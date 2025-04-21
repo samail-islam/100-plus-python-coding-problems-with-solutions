@@ -102,7 +102,8 @@ Here, we will take a real-world coding related problem. We will think about the 
 * **[12.2](Harder/Password-generator.md "Password generator")** - &nbsp; **[Password generator](Harder/Password-generator.md)** 
 * **[12.3](Harder/Password-with-requirements.md "Password with requirements")** - &nbsp; **[Password with requirements](Harder/Password-with-requirements.md)** 
 * **[12.4](Harder/Permutations.md "Permutations")** - &nbsp; **[Permutations](Harder/Permutations.md)** 
-* **[12.5](Harder/Simple-Calculator.md "Generate Sentences")** - &nbsp; **[Generate Sentences](Harder/Simple-Calculator.md)** 
+* **[12.5](Harder/Generate-Sentences.md "Generate Sentences")** - &nbsp; **[Generate Sentences](Harder/Generate-Sentences.md)**
+* **[12.6](Harder/Advanced-Calculator.md "Advanced calculator")** - &nbsp; **[Advanced calculator](Harder/Advanced-Calculator.md)**
 
 
 ## 13 -&nbsp; User Submitted
