@@ -18,6 +18,9 @@ The input list's first element would be the first number, second element the ope
 
 Then put the numbers in separate variables and call the appropriate function based on the operator.
 
+> The `split()` method is a built in function in python, which splits a string into a list where the string has a space.
+> Exmp: split("2 + 3") will return ["2","+","3"] as result.
+
 Think for a few minutes and try it yourself first.
 
 ## The solution
@@ -36,9 +39,12 @@ def divide(num1, num2):
  
 def modulo(num1, num2):
  return num1 % num2
- 
+
+# Inform user that each element in the input should be separated by space.
+print("Give space among the numbers and operator, like: 24 - 5 ")
+
 # Take input from the user
-calc = int(input("Enter your calculation: "))
+calc = input("Enter your calculation: ")
 calclist = calc.split()
 num1 = int(calclist[0])
 operation = calclist[1]
@@ -69,7 +75,7 @@ You saw five functions to add, subtracts, etc. Those are easy.
 
 Then we are taking user input. Then using `split()` we are splitting that and getting two numbers and the operator.
 
-Then we have if-elif-else. And based on the operation, we call the right method to perform the task.
+Then we have if-elif-else, based on the operation, we call the right method to perform the task.
 
 That’s it. 
 
