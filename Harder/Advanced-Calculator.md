@@ -1,4 +1,3 @@
-# Under development.......
 # 12.6 Advanced Calculator
 
 ## The task
@@ -68,7 +67,7 @@ print(num1, operation, num2, '=', result)
 ## How it works
 You saw five functions to add, subtracts, etc. Those are easy.
 
-Then we are taking user inputs. Three inputs. They are easy too. 
+Then we are taking user input. Then using `split()` we are splitting that and getting two numbers and the operator.
 
 Then we have if-elif-else. And based on the operation, we call the right method to perform the task.
 
