@@ -1,20 +1,23 @@
 # Under development.......
-# 12.6 Unique Calculator
+# 12.6 Advanced Calculator
 
 ## The task
-Create a simple calculator. That will be able to take user input of two numbers and the operation the user wants to perform. 
+Create a calculator. That will be able to take user input of an math operation and perform it.
 
-But it would be a little different from other python calculator projects those you usually see. 
-It will take the calculation directly from the user and then perform it, without asking user to choose calculation type( addition, multiplication etc.)
+But it would be a little advanced from other python calculator projects those you usually see. 
+
+It will take the calculation directly from the user and then perform it, without asking user to choose operation type( addition, multiplication etc.). 
 
 ## Solution strategy
 Create a bunch of functions to perform add, subtract, multiply, division or modulo. 
 
 Then take the calculation from the user. 
 
-As the calculator can perform only two number's calculations, you can use the built in split() method
+As the calculator can perform only two number's calculations, you can use the built in ``split()`` method to make the input a list containing three elements.
 
-Then call the appropriate function based on the operation.
+The input list's first element would be the first number, second element the operator( +,*,/,-,%) and last one the second number.
+
+Then put the numbers in separate variables and call the appropriate function based on the operator.
 
 Think for a few minutes and try it yourself first.
 
@@ -36,9 +39,12 @@ def modulo(num1, num2):
  return num1 % num2
  
 # Take input from the user
-num1 = int(input("Enter first number: "))
-operation = input("What you want to do(+, -, *, /, %):")
-num2 = int(input("Enter second number: "))
+calc = int(input("Enter your calculation: "))
+calclist = calc.split()
+num1 = int(calclist[0])
+operation = calclist[1]
+num2 = int(calclist[2])
+
  
 result = 0
 if operation == '+':
